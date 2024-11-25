@@ -1,10 +1,17 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+.play-regular {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
+.play-bold {
+	font-family: "Play", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
 
 
 
@@ -13,11 +20,7 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
+
 
 
 
@@ -28,4 +31,80 @@
 /****************/
 
 /* jouw code */
+h2 {
+	font-family: "Play", sans-serif;
+}
 
+h3 {
+	font-family: "Play", sans-serif;
+}
+
+h4 {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+}
+
+button {
+	font-family: "Play", sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	background-color: #E6E4E0;
+	position: absolute;
+	width: 100vw;
+	z-index: 1;
+	right: 0;
+	top: 0;
+	background-color: white;
+}
+
+nav ul:first-of-type {
+	display: flex;
+	justify-content: space-between;
+	max-height: 2em;
+}
+
+nav ul:nth-of-type(2) {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 0.5em;
+	height: 20em;
+	margin: 1em;
+}
+
+nav ul:nth-of-type(2) li {
+	display: grid;
+	background-color: #E0E0E0;
+	border-radius: 10px;
+	overflow: hidden;
+	grid-template-columns: 2fr 1fr;
+
+}
+
+nav ul:nth-of-type(2)  li:first-child {
+	display: grid;
+	grid-column: 1 / span 2;
+}
+
+nav ul:nth-of-type(2) li h4 {
+	display: grid;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	align-self: start;
+	justify-self: start;
+	margin-left: 1em;
+	margin-top: 0.5em;
+
+}
+
+nav ul:nth-of-type(2) li img {
+	display: grid;
+	max-width: 100%;
+
+
+}

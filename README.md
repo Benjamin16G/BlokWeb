@@ -36,14 +36,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.goboony.nl/
+https://upfront.nl/
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/Camperhuren1.png" width="375px" alt="omschrijving van de pagina">
+Homepage  <img src="readme-images/Fullpage-upfront.png" width="375px" alt="Homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/Camperhuren2.png" width="375px" alt="omschrijving van de pagina">
+Productlisting  <img src="readme-images/upfonthoning" width="375px" alt="Productpagina">
  
 </details>
 
@@ -67,14 +65,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Fullpage-upfront.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/homepage-burgermenu.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/Screenshot 2024-11-21 115038.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
+ ### wellicht nog een dynamisch deel (bijv filter): 
 </details>
 
 
@@ -87,25 +86,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik ben nieuw in de HTML en CSS wereld. Dus ik was al trots op het feit dat ik mijn afbeeldingen allemaal op orde heb. Ook de structuur van mijn headers is goed. Hier zat ik eerst mee te klooien omdat ik niet zeker wist welke grootte ik nodig had.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+3 studenten waren er niet. Ik was alleen met de student begeleider... Ik wilde vragen stellen over het volgende:
 
+Mijn JS onclick werkte niet in de oefening
+De structuur van mijn HTML is nog niet overzichtelijk
+Vragen of ik inderdaad wel deze website wil
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Ik ben van website gewisseld. Dit is niet opgenomen in dit document omdat ik alle screenshots en linkjes in de readme. al heb aangepast. Hier heb ik meer opties rondom css. Wat ik graag meer wil oppikken. 
+  - De structuur van mijn HTML was niet overzichtelijk. Ik had alles op dezelfde lijn. Ik moet meer met sections and lijstjes gaan werken.
+  - Die Javascript moet nog een ander variabel hebben. Hier kon ik zelf niet uitkomen.
   - ...
 
 </details>
