@@ -1,0 +1,374 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+
+*, body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+
+.play-regular {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.play-bold {
+	font-family: "Play", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+
+
+
+a {
+	font-family: "Play", sans-serif;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h2 {
+	font-family: "Play", sans-serif;
+}
+
+h3 {
+	font-family: "Play", sans-serif;
+}
+
+h4 {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+}
+
+p {
+	font-family: "Play", sans-serif;
+	font-weight: 400;
+}
+
+button {
+	font-family: "Play", sans-serif;
+	border-color: transparent;
+}
+
+@media (max-width: 768px) {
+
+	video {
+		max-width: 100vw;
+		height: 100vh;
+		object-fit: cover;
+	}
+
+
+	
+	/* Header en Nav */
+	header section {
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		width: 100vw;
+		padding: 0.5rem;
+		z-index: 1;
+
+	}
+	header h1 > img {
+		width: 50%;
+	}
+
+	header button {
+		border-radius: 10px;
+		color: white;
+		background-color: black;
+		font-weight: 700;
+		margin: 1rem;
+		display: flex;
+		align-items: center;
+		z-index: 1;
+		margin-right: 2em;
+		padding: 0.5em;
+		font-size: 1rem;
+	}
+
+
+	header > nav {
+		background-color: white;
+		position: fixed;
+		width: 420px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		translate: 100%;
+		transition: .2s;
+	}
+
+	header > nav.toonMenu {
+		translate: 0% 0%;
+	}
+
+	nav ul:first-of-type {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0.5em 0em 0em 0em;
+	}
+
+	nav ul:nth-of-type(2) {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 0.5em;
+		height: 20em;
+		margin-right: 1em;
+	}
+
+	nav ul:nth-of-type(2) li {
+		display: grid;
+		position: relative;
+		background-color: #E0E0E0;
+		border-radius: 5px;
+		overflow: hidden;
+		grid-template-columns: 1fr;
+
+	}
+
+	nav ul:nth-of-type(2) li:first-child {
+		grid-column: 1 / span 2;
+	}
+
+	nav ul:nth-of-type(2) li h4 {
+		display: grid;
+		grid-column-start: 1;
+		grid-row-start: 1;
+		align-self: start;
+		justify-self: start;
+		margin-left: 0.5em;
+		margin-top: 0.5em;
+		position: absolute;
+		font-size: 0.8em;
+		z-index: 2;
+
+
+	}
+
+	nav ul:nth-of-type(2) li img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: 1;
+
+	}
+
+
+
+	#closeButton {
+		background-color: white;
+		border-color: transparent;
+	}
+
+	nav a {
+		font-family: "Play", sans-serif;
+		font-weight: 400;
+		color: #6A6A6A;
+		text-decoration: none;
+		display: grid;
+	}
+
+	/* Dit is voor 2e section - producten en top 10 */
+
+	nav ul:nth-of-type(3) {
+		line-height: 200%;
+
+	}
+
+
+
+	main section:nth-of-type(1) div {
+		display: flex;
+		justify-content: left;
+		flex-wrap: wrap;
+		padding: 0.75em;
+	}
+
+	.top10 h2 {
+		padding: 0.75em;
+	}
+
+	.top10 button {
+		border-radius: 3px;
+		color: white;
+		background-color: black;
+		margin: 0.5rem;
+		font-size: 0.75rem;
+		padding: 0.75em;
+
+
+
+	}
+
+	main section ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 8px;
+		padding: 20px;
+	}
+
+	main section li {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	/* Like button */
+	main section ul button {
+		grid-row-start: 1;
+		position: absolute;
+		align-self: start;
+		justify-self: end;
+		margin: 0.5rem;
+		border-radius: 5px;
+		align-items: center;
+		aspect-ratio: 1/1;
+		font-size: 1em;
+	}
+
+	main section ul img {
+		height: calc(50vw);
+		width: calc(45vw);
+		object-fit: cover;
+		border-radius: 5px;
+	}
+
+
+	/* De laad meer knop */
+	.LoadMore {
+		width: 100vw;
+		background-color: white;
+		border-radius: 5px;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-size: 1em;
+		margin-top: 2em;
+		margin-bottom: 3em;
+	}
+
+	/* voor alle sporters */
+	.lastsection {
+		display: flex;
+		flex-direction: column;
+		width: 100wv;
+	}
+
+	.lastsection li {
+		position: relative;
+
+	}
+
+	.lastsection img {
+		width: 100%;
+		align-items: center;
+
+	}
+
+	.lastsection h3 {
+		position: absolute;
+		left: 3%;
+		bottom: 5%;
+		color: white;
+		font-size: 24px;
+	}
+
+	/* Laatste artical Onze visie */
+	article {
+		display: grid;
+		max-width: 100vw;
+		background-position: center;
+		color: white;
+		margin-top: 4em;
+	}
+
+	article h2 {
+		font-size: 28px;
+		margin: 0.5em;
+		position: absolute;
+		margin-left: 0.6em;
+	}
+
+	article h3 {
+		font-size: 18px;
+		margin: 0.75em;
+		position: absolute;
+		margin-left: 1em;
+		margin-top: 3em;
+	}
+
+	article a {
+		background-color: #D0DAE6;
+		color: white;
+		padding: 0.75em;
+		border-radius: 5px;
+		margin-top: 7em;
+		position: absolute;
+		margin-left: 1em;
+	}
+
+	footer {
+		padding-top: 1em;
+	}
+
+	footer section:first-of-type {
+		background-color: #E8E8E8;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	footer section:first-of-type a {
+		color: black;
+		line-height: 1em;
+		padding: 1em;
+	}
+
+	footer section:nth-of-type(2) {
+		background-color: #E8E8E8;
+		display: flex;
+
+
+	}
+
+	footer section:nth-of-type(2) a {
+		padding: 1em;
+		width: 5%;
+	}
+
+	footer section:nth-of-type(2) img {
+		padding: 1em;
+		width: 100%;
+	}
+}
+
