@@ -152,6 +152,8 @@ Vragen of ik inderdaad wel deze website wil
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+-Ik ben erachter gekomen dat mijn nav ook wordt meegenomen in de links en headers. Terwijl deze eigenlijk hidden zou moeten zijn. Na navragen is dit te fixen met een "aria label". Hopelijk lukt dit nog op tijd. Aangezien ik ook een java script moet toevoegen om deze role er op en af te halen.
+-
 </details>
 
 
